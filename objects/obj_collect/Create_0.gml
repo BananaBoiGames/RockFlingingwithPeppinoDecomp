@@ -1,0 +1,13 @@
+sprite_index = choose(spr_shroomcollect, spr_tomatocollect, spr_cheesecollect, spr_sausagecollect, spr_pineapplecollect)
+image_speed = 0.35
+hsp = 0
+vsp = 0
+grav = 0.5
+grounded = false
+drop = 0
+cantcollect = 0
+flicker = 0
+gotowardsplayer = false
+movespeed = 0
+enemydropped = false
+depth = 1

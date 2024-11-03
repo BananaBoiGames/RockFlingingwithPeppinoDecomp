@@ -1,0 +1,9 @@
+musicID = -4
+music = -4
+fadedmusicID = -4
+bonusmusicID = -4
+bonusmusic = 58
+transfomusicID = -4
+transfomusic = -4
+global.music = 0
+room_arr = [[rm_title, level1_secretH, false], [rm_outsidetower, level1_secretH, false], [rm_testhub, rm_tower_bonus1, false], [rm_tower_1, level4_r2, false], [rm_hydro_1, rm_hydro_1, false], [rm_desert_1, level3_r7, false], [rm_fling_1, rm_result_rank, false]]

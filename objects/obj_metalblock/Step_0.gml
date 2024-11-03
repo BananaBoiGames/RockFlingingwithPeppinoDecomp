@@ -1,0 +1,6 @@
+if ((place_meeting((x + 1), y, obj_player) || place_meeting((x - 1), y, obj_player)) && (obj_player.state == states.mach3 || obj_player.state == states.machroll))
+    instance_destroy()
+if (place_meeting(x, (y - 15), obj_player) && ((obj_player.state == states.freefall && (!global.upgrade_bodyslam)) || obj_player.state == states.superslam || obj_player.state == states.knightpep))
+    instance_destroy()
+if (place_meeting(x, (y + 15), obj_player) && obj_player.state == states.Sjump)
+    instance_destroy()
